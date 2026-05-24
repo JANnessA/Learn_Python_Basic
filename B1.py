@@ -23,4 +23,4 @@ result = product_or_sum(20, 30)
 print(f'the first result is {result}')
 
 result = product_or_sum(40, 30)
-print(f'the first result is {result}')
+print(f'the second result is {result}')
