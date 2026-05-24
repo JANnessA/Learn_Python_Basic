@@ -8,3 +8,11 @@
 
 # Expected Output: The factorial of 5 is 120
 
+def factorial_num(num):
+    result=1
+    for i in range(1, num+1):
+        result*= i
+    return result    
+    
+result = factorial_num(5)
+print(f'Kết quả: {result}')
