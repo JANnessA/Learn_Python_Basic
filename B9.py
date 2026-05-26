@@ -1,0 +1,18 @@
+# Exercise 9. Vowel Frequency Counter
+
+# Practice Problem: Write a program to count the total number of vowels (a, e, i, o, u) present in a given sentence.
+
+# Exercise Purpose: This exercise introduces “Membership Testing.” By checking if a character belongs to a specific group (the vowels), 
+#   you learn how to filter data based on categories. This is a fundamental step toward building text-analysis tools or spam filters.
+
+# Given Input: sentence = "Learning Python is fun!"
+# Expected Output: Number of vowels: 6
+
+def vowel_frequency_counter(text):
+    numbers_of_vowel = 0
+    for i in range (0,len(text)):
+        if text[i] in ('a', 'i', 'e', 'o', 'u'): numbers_of_vowel += 1
+    return numbers_of_vowel
+
+numbers_of_vowel = vowel_frequency_counter('Learning Python is fun!')
+print(f'Number of vowel: {numbers_of_vowel}')
